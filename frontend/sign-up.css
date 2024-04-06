@@ -1,0 +1,188 @@
+.frame-inner {
+    width: 261px;
+    height: 401px;
+    position: relative;
+    background-color: var(--color-whitesmoke);
+    display: none;
+  }
+  .sign-up1 {
+    margin: 0;
+    height: 61px;
+    flex: 1;
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--font-roboto-mono);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .subform {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-6xs) 11px var(--padding-mid);
+  }
+  .name1 {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-roboto-mono);
+    color: var(--color-black);
+    text-align: left;
+    z-index: 1;
+  }
+  .name-wrapper {
+    width: 148px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .email-id,
+  .rectangle-div {
+    position: relative;
+    z-index: 1;
+  }
+  .rectangle-div {
+    align-self: stretch;
+    height: 26px;
+    background-color: var(--color-gainsboro-100);
+  }
+  .email-id {
+    flex: 1;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-roboto-mono);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .email-id-wrapper {
+    width: 142px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs);
+    box-sizing: border-box;
+  }
+  .library-i-d-label {
+    height: 26px;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gainsboro-100);
+    z-index: 1;
+  }
+  .library-i-d-label-wrapper,
+  .name-email-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .library-i-d-label-wrapper {
+    align-self: stretch;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .name-email-container {
+    width: 142px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    height: 20px;
+    padding: 0 var(--padding-8xs);
+    box-sizing: border-box;
+    font-family: var(--font-roboto-mono);
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+  }
+  .submit-button-child {
+    align-self: stretch;
+    height: 26px;
+    position: relative;
+    background-color: var(--color-gainsboro-100);
+    z-index: 1;
+  }
+  .frame-parent,
+  .submit-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .submit-button {
+    align-self: stretch;
+    gap: 1px;
+  }
+  .frame-parent {
+    width: 186px;
+    gap: 5px;
+  }
+  .frame-child1 {
+    height: 35px;
+    width: 182px;
+    position: relative;
+    background-color: var(--color-skyblue);
+    display: none;
+  }
+  .submit1 {
+    height: 26px;
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-sm);
+    display: inline-block;
+    font-family: var(--font-roboto-mono);
+    color: var(--color-white);
+    text-align: center;
+    z-index: 2;
+  }
+  .frame-container,
+  .rectangle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-container {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) 0 0;
+    background-color: var(--color-skyblue);
+    flex: 1;
+    z-index: 1;
+  }
+  .frame-container {
+    align-self: stretch;
+    padding: 0 var(--padding-6xs) 0 var(--padding-7xs);
+  }
+  .rectangle-group,
+  .sign-up {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .rectangle-group {
+    margin: 0;
+    width: 261px;
+    background-color: var(--color-whitesmoke);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-34xl) 33px 39px;
+    gap: var(--gap-xl);
+  }
+  .sign-up {
+    width: 100%;
+    height: 563px;
+    position: relative;
+    overflow: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: var(--padding-4xs) var(--padding-xs) 153px;
+    letter-spacing: normal;
+  }
+  
